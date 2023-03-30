@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: whitesmoke;
+}
+
+#con-1 {
+  width: 500px;
+  height: 150px;
+  border: solid 2px;
+  margin-left: 420px;
+  margin-top: 30px;
+
+  padding-left: 40px;
+}
+#converter {
+  margin-left: 30px;
+  width: 200px;
+  height: 30px;
+  background-color: blue;
+  color: whitesmoke;
+  border-radius: 10px;
+  border: none;
+  margin-top: 90px;
+}
+
+#header {
+  margin-left: 400px;
+  margin-top: 40px;
+}
+
+#con-1 label {
+  font-style: italic;
+  position: absolute;
+}
+
+#screen1 {
+  margin-left: 400px;
+  font-size: 30px;
+}
+
+#screen2 {
+  width: 200px;
+  height: 30px;
+  border: solid 2px red;
+  background-color: cadetblue;
+}
+
+#con20 {
+  height: 40px;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  caret: none;
+  font-size: 30px;
+  margin-left: -20px;
+}
+
+#error {
+  width: 300px;
+  height: 50px;
+  background-color: red;
+  padding-left: 60px;
+  padding-top: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-left: 500px;
+  margin-top: 100px;
+  display: none;
+  position: relative;
+  animation: move 0.3s ease-in-out forwards;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(180px);
+  }
+  /* 100% {
+    transform: translateY(-300px);
+  } */
+}
+
+/* .timeless {
+  animation: moveit 0.3s ease-in-out forwards;
+}
+
+@keyframes moveit {
+  0% {
+    transform: translateY(100px);
+  }
+} */
+ #alert {
+  position: relative;
+ }
+
+#alert2{
+  width:400px ;
+  height: 100px;
+  background-color: cornflowerblue;
+  padding-top: 40px;
+  margin-left: 1000px;
+  margin-top: 100px;
+  padding-left: 30px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  display: none;
+  animation: movement 0.4s ease-in forwards;
+  animation-delay: 3ms;
+}
+
+@keyframes movement {
+  0% {
+    transform: translateX(200px);
+  }
+}
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="/converter.css">
+</head>
+<body>
+    <h1 id="header">Convert Dollars to Naira!</h1><br><br>
+
+ <div id="con-1">
+    <label for="convert">How much Dollars do you want to convert?
+        <input type="number" name="" id="con20" oninput="val22()">
+    </label><br> <br>
+    <button id="converter"><b>Convert</b></button>
+ </div> <br> <br>
+
+ <div id="screen1">Your Naira appears here: <span id="screen2"><b></b></span></div> <br> <br>
+
+ <div id="error" class="timeless">
+    Field can't be empty!
+ </div> <br> <br>
+
+ <div id="alert">
+    <div id="alert2">
+        <i>Wow! looks like you have more Dollars to change, <br>
+    You need our Aboki? <span id="yes"><a href="#">Yes</a></span> <span id="no" onclick="abortit()"><a href="#">No</a></span></i>
+    </div>
+ </div>
+
+
+ 
+
+    <script src="/converter.js"></script>
+    
+</body>
+</html>
